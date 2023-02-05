@@ -1,4 +1,4 @@
-// 17. Pedir un número por pantalla y mostrarlo dado al revés.
+// 17. Pedir un nÃºmero por pantalla y mostrarlo al revÃ©s.
 
 #include <iostream>
 #include <locale.h>
@@ -11,7 +11,7 @@ int main()
 	setlocale(LC_ALL, "es_ES");
 	int numero, alReves{ 0 };
 
-	cout << "Ingrese un número: "; cin >> numero;
+	cout << "Ingrese un nÃºmero: "; cin >> numero;
 
 	while (numero != 0)
 	{
@@ -20,7 +20,7 @@ int main()
 		numero /= 10;
 	}
 
-	cout << "El número al revés: " << alReves << "\n";
+	cout << "El nÃºmero al revÃ©s: " << alReves << "\n";
 
 	return 0;
 }
